@@ -1,0 +1,8 @@
+﻿<?xml version = '1.0' encoding = 'UTF-8'?>
+
+<localcaches>
+    <!-- 10/2 * * * * ?  0 0 * * ? 没秒执行一次-->
+    <cache className="xn.core.cache.readonlycache.BasicTableCache" cronExpr=" 0 0 0 * * ?" init="true" />
+     <cache className="xn.core.cache.readonlycache.PigInfoReadOnlyCache" cronExpr="0 0 0 * * ?" init="true" />
+    
+</localcaches>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd"
+>
+<configuration>
+	<typeAliases>
+		<!--基类Model  -->
+		<typeAlias alias="BaseModel" type="xn.core.model.BaseModel" /> 
+		<!-- 系统模块 系统 -->
+		<typeAlias alias="ActionTrackModel" type="xn.core.model.system.ActionTrackModel"/>
+		<typeAlias alias="CacheTablesModel" type="xn.core.model.system.CacheTablesModel"/>
+		<typeAlias alias="MenuView" type="xn.core.model.system.MenuView"/> 
+		<typeAlias alias="ButtonModel" type="xn.core.model.system.ButtonModel"/>
+		<typeAlias alias="FootinfoModel" type="xn.core.model.system.FootinfoModel"/>
+		<typeAlias alias="PrcOrderModel" type="xn.core.model.system.PrcOrderModel"/> 
+		<typeAlias alias="QuickMenusView" type="xn.core.model.system.QuickMenusView"/> 
+   		 <typeAlias alias="QuickMenusModel" type="xn.core.model.system.QuickMenusModel"/> 
+   		 
+		<!--系统模块 门户 -->
+		<typeAlias alias="CoreRoleModel" type="xn.core.model.portal.CoreRoleModel"/>
+		<typeAlias alias="CoreCompanyModel" type="xn.core.model.portal.CoreCompanyModel"/>
+		<typeAlias alias="CoreUserModel" type="xn.core.model.portal.CoreUserModel"/>
+		<typeAlias alias="CoreDeptModel" type="xn.core.model.portal.CoreDeptModel" />
+		<typeAlias alias="UserModel" type="xn.core.model.portal.UserModel"/> 
+		<typeAlias alias="ModuleModel" type="xn.core.model.portal.ModuleModel"/> 
+		<typeAlias alias="SequenceModel" type="xn.core.model.system.SequenceModel"/> 
+		
+		<!-- 权限管理 -->
+		<typeAlias alias="AuthRoleModel" type="xn.core.model.auth.AuthRoleModel"/>
+	</typeAliases>
+</configuration>
